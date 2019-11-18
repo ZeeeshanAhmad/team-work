@@ -1,0 +1,122 @@
+*
+{
+    padding:0;
+    margin:0;
+    font-family: 'Karla', sans-serif;
+    font-weight: lighter;
+}
+.body1{
+width:100%;
+height:100vh;
+display: flex;
+align-items:center;
+
+}
+.headimage
+{
+    width:100%;
+    height:95vh;
+    background:#232A34;
+    display:flex;
+  
+}
+.head-left
+{
+    width:50%;
+    height:80vh;
+    display: flex;
+    flex-direction: column;
+align-items: center;
+
+
+}
+.head-left h3
+{
+    color:white;
+margin-top:80px;
+}
+.head-left h1
+{
+    color:white;
+    font-size:40px;
+    font-weight: lighter;
+    text-align: center;
+    
+}
+.divq
+{
+    width:15%;
+    height:0.1vh;
+    background:gray;
+    margin-top:30px;
+
+}
+.head-left p
+{
+    color:grey;
+    text-align: center;
+    margin-top:60px;
+    font-weight: lighter;
+    line-height:1.6rem;
+}
+#btn-2
+{
+border:1px solid grey;
+background:transparent;
+position: relative;
+top:70px;
+border-radius:30px;
+line-height:40px;
+width:170px;
+font-size:17px;
+color:grey;
+height:8vh;
+cursor: pointer;
+}
+#btn-2:hover{
+    color:#F55858;
+    border:1px solid #F55858 ;
+}
+.head-right 
+{
+    width:50%;
+    height:80vh;
+}
+.head-right img
+{
+    width:100%;
+    height:86vh;
+   
+}
+
+.icon1
+{
+    position: fixed;
+    right: 15vh;
+    bottom: 10px;
+    height: 8vh;
+    width: 4%;
+    background:#141A22;
+    border-radius: 50%;
+}
+.icon1 i{
+    position: relative;
+    top:15px;
+    left:17px;
+    color:white;
+    font-size:20px;
+}
+.icon1 i:hover{
+    color:#F55858;
+}
+.icon2
+{
+    position: fixed;
+    right: 3vh;
+    bottom: 10px;
+    height: 8vh;
+    width: 4%;
+    background:#141A22;
+    border-radius: 50%;
+}
+
