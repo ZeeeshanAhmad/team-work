@@ -1,0 +1,117 @@
+*
+{
+	margin:0;
+	padding:0;
+	font-family: 'Open Sans', sans-serif;
+}
+#features
+{
+	width: 100%;
+	height: 100vh;
+	background-image: url('parallax_bg.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+#features h1
+{
+	text-align: center;
+	padding-top: 50px;
+	box-sizing: border-box;
+	font-size: 48px;
+	color: white;
+	font-weight: lighter;
+}
+#features .f-boxes
+{
+	width: 80%;
+	height: 75vh;
+	margin-left: 10%;
+	/*border:1px solid white;*/
+	display: flex;
+	justify-content:center;
+	flex-wrap: wrap;
+
+	margin-top: 30px;
+}
+#features .f-boxes .f-box1,#features .f-boxes .f-box3
+{
+	width: 33%;
+	height: 70vh;
+	/*border:1px solid white;*/
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	flex-wrap: wrap;
+	color: white;
+
+}
+#features .f-boxes .f-box3
+{
+	margin-top: 18px;
+}
+#features .f-boxes .f-box1 i,#features .f-boxes .f-box3 i
+{
+	font-size: 23px;
+	text-align: center !important;
+	padding-left: 12px;
+	box-sizing: border-box;
+	line-height: 7vh;
+}
+#features .f-boxes .f-box3 i
+{
+	padding-left: 15.5px !important;
+}
+#features .f-boxes .f-box1 .icon,#features .f-boxes .f-box3 .icon
+{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+background-color:#FFC455;
+
+}
+#features .f-boxes .f-box1 h4,#features .f-boxes .f-box1 p
+{
+
+	margin-right: 70px;
+	text-align: right;
+	margin-top: -48px;
+	
+	
+}
+
+#features .f-boxes .f-box1 .icon
+{
+	position: relative;
+	right:0px;
+	left:85%;
+}
+
+#features .f-boxes .f-box3
+{
+	align-items: flex-start;
+}
+#features .f-boxes .f-box3 h4,#features .f-boxes .f-box3 p
+{
+	display: inline-block;
+	margin-left: 60px;
+	position: relative;
+	top:-48px;
+}
+#features .f-boxes .f-box3 p,#features .f-boxes .f-box1 p
+{
+	
+	margin-top: 12px;
+	color: grey;
+	
+}
+#features .f-boxes #f-box2
+{
+	width: 33%;
+	height: 75vh;
+	/*border:1px solid white;*/
+}
+#features .f-boxes #f-box2 img
+{
+	margin-left:70px; 
+}
