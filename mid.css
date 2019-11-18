@@ -1,0 +1,84 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.m1{
+    height: 80vh;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.n1{
+    height: 20vh;
+    width: 80%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+.heading h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+}
+.n2{
+    height: 40vh;
+    width: 80%;
+    /* background-color:brown; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+     border-top: 1px solid lightgray; 
+     border-left: 1px solid lightgray;
+    
+ 
+}
+.n3{
+    height: 20vh;
+    width: 80%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.heading{
+    height: 40%;
+    width: 25%;
+    /* border: 1px solid; */
+}
+.btn{
+    height: 6vh;
+    width: 17%;
+    background-color: tomato;
+    border-radius: 3vh;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn:hover{
+    opacity: 0.8;
+}
+.a1{
+    height:20vh;
+    width: 24%;
+    /* background-color: violet; */
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.a1 i{
+    font-size:10vh ;
+   color: lightgray;
+}
+.a1:hover{
+    background-color: rgba(0, 0, 0, 0.034);
+}
