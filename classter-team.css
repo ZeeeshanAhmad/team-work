@@ -1,0 +1,60 @@
+.classer-team{
+    padding: 0;
+    margin: 0;
+    height: auto;
+    width: 100%;
+    background-color: #f5f7f9;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+}
+.classer-team h2{
+    font-size: 40px;
+    line-height: 49px;
+    font-weight: 100;
+    color: #232a34;
+}
+.classer-team p{
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 300;
+    color: #5a6266;
+    margin: 0% 29%;
+}
+.team-list {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 3%;
+}
+.team-img img{
+    width: 270px;
+    height: 270px;
+}
+.team-img {
+    position: relative;
+}
+.team-img::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+    transition: all ease .9s;
+    
+}
+.team-img:hover::after{
+    background-color: #05d1d4;
+    opacity: 0.8;
+}
+.social-icons{
+    position: absolute;
+    top: 45%;
+    left: 35%;
+}
+.social-icons .fab{
+    font-size: 30px;
+    color: white;
+}
