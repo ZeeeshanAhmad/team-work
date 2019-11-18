@@ -1,0 +1,58 @@
+.havy{
+    height:20vh;
+    width:100%;
+    /* border:1px solid black; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.havy1{
+    height: 100%;
+    width:30%;
+    /* border:1px solid black; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.havy1>p{
+    font-size: 15px;
+    font-weight: bolder;
+}
+.havyy{
+    height:50vh;
+    width:100%;
+    /* border:1px solid black; */
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.havy2{
+    height:80%;
+    width:25%;
+    /* border:1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.cir{
+    height:40%;
+    width:30%;
+    border: 1px solid black;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cir>i{
+    font-size: 40px;
+}
+.cir>i:hover{
+    color:white;
+}
+.cir:hover{
+    background:blue;
+    cursor: wait;
+    transition-duration: 5s;
+} 
