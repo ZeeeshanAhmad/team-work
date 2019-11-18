@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding:0;
+}
+.purple{
+    height:70vh;
+    width:100%;
+    background:#3A236D;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.Purple h1{
+    color:white;
+    font-size:3rem;
+    font-weight:lighter;
+}
+.purple hr{
+    width:8%;
+    background:whitesmoke;
+}
+.name-m{
+    width:60%;
+    height:20vh;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    border-bottom:.5px solid silver;
+}
+.name h3{
+    text-transform: uppercase;
+    line-height:3rem;
+}
+.name p{
+    color:silver;
+}
+.name-m span{
+font-weight: bolder;
+}
+.purple button{
+    height:6vh;
+    width:10%;
+    background: transparent;
+    border:1px solid silver;
+    color:silver;
+    border-radius:20px ;
+}
+.purple button:hover{
+    border:1px solid #FFC455;
+    color:#FFC455;
+}
+.tweet-m{
+    height:65vh;
+    width:100%;
+    background:white;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.tweet-m h1{
+    font-size:3rem;
+    color:black;
+    line-height: 3rem;
+    font-weight:lighter;
+}
+.tweet-m i{
+    color:#05D1D4;
+    font-size: 5rem;
+    line-height: 7rem;
+}
+.tweet-m p1{
+    text-transform: uppercase;
+    text-align: center;
+}
+.tweet-m p{
+    color:grey;
+    line-height: 3rem;
+
+}
+.tweet-m span{
+    color:#05D1D4;
+}
+.pink{
+    height:15vh;
+    width:100%;
+    background:#F55858;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:2rem;
+}
+.pink button{
+    padding:15px 25px;;
+    border-radius:30px;
+    font-size:1.1rem;
+    margin:0 10px ;
+    font-weight:lighter;
+    border:1px solid white;
+}
+.pink button:hover{
+    font-weight:lighter;
+    border:1px solid #05D1D4;
+    color:white;
+    background:#05D1D4;
+}
