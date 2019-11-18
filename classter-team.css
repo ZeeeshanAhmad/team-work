@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 .classer-team{
     padding: 0;
     margin: 0;
@@ -5,7 +6,7 @@
     width: 100%;
     background-color: #f5f7f9;
     text-align: center;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 .classer-team h2{
     font-size: 40px;
@@ -32,6 +33,7 @@
 }
 .team-img {
     position: relative;
+    overflow: hidden;
 }
 .team-img::after{
     content: '';
@@ -51,10 +53,29 @@
 }
 .social-icons{
     position: absolute;
-    top: 45%;
+    top: 100%;
     left: 35%;
 }
 .social-icons .fab{
     font-size: 30px;
     color: white;
+}
+.team-img:hover .social-icons{
+    position: absolute;
+    transition: all ease .9s;
+    top: 45%;
+    z-index: 99;
+}
+.team-info{
+    text-align: left;
+}
+.team-info h3{
+    line-height: 0;
+    font-size: 12px;
+    color: #232a34;
+}
+.team-info h4{
+    line-height: 0;
+    font-size: 25px;
+    color: #232a34;
 }
